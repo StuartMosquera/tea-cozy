@@ -45,3 +45,24 @@ header {
 .nav-link {
   color: inherit;
 }
+
+#mission {
+  align-items: center;
+  background-image: url('../images/img-mission-background.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  justify-content: center;
+  margin: 69px auto 80px;
+  width: 1200px;
+}
+
+.mission-text {
+  background-color: black;
+  line-height: 1.5;
+  padding: 5px 0;
+  width: 100%;
+}
