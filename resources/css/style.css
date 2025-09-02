@@ -12,3 +12,36 @@ body {
   opacity: 0.9;
   text-align: center;
 }
+
+header {
+  align-items: center;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  height: 69px;
+  justify-content: space-between;
+  padding: 0 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo {
+  width: 150px;
+}
+
+.logo img {
+  height: auto;
+  max-height: 50px;
+  width: 100%;
+}
+
+.links-container {
+  column-gap: 20px;
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-link {
+  color: inherit;
+}
