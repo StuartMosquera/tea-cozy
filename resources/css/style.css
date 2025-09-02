@@ -56,7 +56,7 @@ header {
   flex-direction: column;
   height: 700px;
   justify-content: center;
-  margin: 69px auto 80px;
+  margin: 69px auto 40px;
   width: 1200px;
 }
 
@@ -64,5 +64,37 @@ header {
   background-color: black;
   line-height: 1.5;
   padding: 5px 0;
+  width: 100%;
+}
+
+#featured-tea {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 40px auto;
+  padding: 20px 0;
+  row-gap: 40px;
+  width: 1000px;
+}
+
+.featured-text {
+  line-height: 1.5;
+}
+
+.featured-images {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.featured-images figure {
+  width: 300px;
+}
+
+.featured-images img {
+  height: auto;
+  max-height: 200px;
   width: 100%;
 }
