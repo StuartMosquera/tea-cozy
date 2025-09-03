@@ -133,3 +133,17 @@ header {
 .locations-container article * {
   padding-bottom: 30px;
 }
+
+.address {
+  height: 200px;
+}
+
+.address * {
+  padding-bottom: 30px;
+}
+
+.address ~ p {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  text-align: left;
+}
