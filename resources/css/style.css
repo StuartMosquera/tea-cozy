@@ -98,3 +98,38 @@ header {
   max-height: 200px;
   width: 100%;
 }
+
+#locations {
+  align-items: center;
+  background-image: url('../images/img-locations-background.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: center;
+  margin: 40px auto 0;
+  row-gap: 15px;
+  width: 1200px;
+}
+
+.locations-container {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  width: 100%;
+}
+
+.locations-container article {
+  background-color: black;
+  opacity: 1;
+  padding-top: 20px;
+  width: 300px;
+}
+
+.locations-container article * {
+  padding-bottom: 30px;
+}
